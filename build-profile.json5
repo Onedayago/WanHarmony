@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/liushun/work/keyStore/keyStore.p12",
+          "storePassword": "0000001D4C43E073C250A39BF1BAF017615402655239581B5A20F267F4B7BBB57A4EA6AC6E7412C9AB4999AC9A",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001D18ACF47F95D1B3EFC38F6E25F6E41A1564E770A7C4748A1A6BE026406BF7E0EF96595AE49E64186A1D",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/liushun/work/keyStore/推送测试Debug.p7b",
+          "certpath": "/Users/liushun/work/keyStore/调试推送.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

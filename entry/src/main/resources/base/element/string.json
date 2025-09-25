@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "tab_home",
+      "value": "首页"
+    },
+    {
+      "name": "tab_square",
+      "value": "广场"
+    },
+    {
+      "name": "tab_account",
+      "value": "公众号"
+    },
+    {
+      "name": "tab_system",
+      "value": "体系"
+    },
+    {
+      "name": "tab_project",
+      "value": "项目"
+    }
+  ]
+}
